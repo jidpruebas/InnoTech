@@ -27,9 +27,9 @@
 
 
 ### Equipo 4
--
--
--
+- Andrés Arango
+- Johan Guzmán
+- Maria Cristina Rivas
 -
 -
 -

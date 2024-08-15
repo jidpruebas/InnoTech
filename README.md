@@ -18,10 +18,10 @@
 -
 
 ### Equipo 3
--
--
--
--
+-Johan Stiven Suarez
+-Juan Sebastian Legarda
+-Juan José Muñoz
+-Jean Carlo Ocampo
 -
 -
 

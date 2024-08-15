@@ -1,91 +1,96 @@
-<!-- index.html -->
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InnoTech - Inicio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Bienvenidos a InnoTech</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="services.html">Servicios</a></li>
-                <li><a href="about.html">Nosotros</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home">
-        <h2>Tu portal de tecnología e innovación</h2>
-        <p>Explora las últimas tendencias en tecnología y descubre cómo podemos ayudarte a transformar tu negocio.</p>
-        <img src="https://via.placeholder.com/600x300" alt="Imagen de Tecnología">
-    </section>
-    <footer>
-        <p>&copy; 2024 InnoTech. Todos los derechos reservados.</p>
-    </footer>
-</body>
-</html>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Nuestra Empresa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Raleway', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background-color: #333;
+            background: linear-gradient(135deg, #007BFF, #00C6FF);
             color: white;
-            padding: 10px 0;
+            padding: 50px 0;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         nav {
-            margin: 10px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px 0;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         nav a {
-            margin: 0 15px;
-            color: #333;
+            margin: 0 20px;
+            color: #007BFF;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #0056b3;
         }
         section {
-            padding: 20px;
-            margin: 20px 0;
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 1200px;
             background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+            font-size: 32px;
+            margin-bottom: 20px;
         }
         .team-member {
             display: inline-block;
-            width: 30%;
+            width: 28%;
             text-align: center;
-            margin: 10px;
+            margin: 20px 1%;
             vertical-align: top;
+            transition: transform 0.3s ease;
+        }
+        .team-member:hover {
+            transform: translateY(-10px);
         }
         .team-member img {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
             margin-bottom: 10px;
+            border: 3px solid #007BFF;
+        }
+        .team-member h3 {
+            margin: 10px 0;
+            font-size: 22px;
+            color: #333;
+        }
+        .team-member p {
+            font-size: 16px;
+            color: #666;
+        }
+        #contact p {
+            font-size: 18px;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
@@ -109,24 +114,29 @@
 <section id="team">
     <h2>Nuestro Equipo</h2>
     <div class="team-member">
-        <img src="https://via.placeholder.com/100" alt="Miembro 1">
+        <img src="https://via.placeholder.com/120" alt="Miembro 1">
         <h3>Juan Pérez</h3>
         <p>CEO</p>
     </div>
     <div class="team-member">
-        <img src="https://via.placeholder.com/100" alt="Miembro 2">
+        <img src="https://via.placeholder.com/120" alt="Miembro 2">
         <h3>Maria López</h3>
         <p>CTO</p>
     </div>
     <div class="team-member">
-        <img src="https://via.placeholder.com/100" alt="Miembro 3">
+        <img src="https://via.placeholder.com/120" alt="Miembro 3">
         <h3>Carlos Ruiz</h3>
         <p>Director de Marketing</p>
     </div>
     <div class="team-member">
-        <img src="https://via.placeholder.com/100" alt="Miembro 4">
-        <h3>Carlos Ruiz</h3>
-        <p>Director de Marketing</p>
+        <img src="https://via.placeholder.com/120" alt="Miembro 4">
+        <h3>Ana García</h3>
+        <p>Gerente de Producto</p>
+    </div>
+    <div class="team-member">
+        <img src="https://via.placeholder.com/120" alt="Miembro 5">
+        <h3>David Martínez</h3>
+        <p>Desarrollador Senior</p>
     </div>
 </section>
 
